@@ -1,9 +1,27 @@
-# Vue 3 + TypeScript + Vite
+# PrimeVue Template
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Overview
 
-## Recommended Setup
+This project is a template for building applications with Vue 3, leveraging the PrimeVue design system, Tailwind CSS for styling, Vue Router for navigation, Pinia for state management, Vue I18n for internationalization, and VueUse for utility functions. The project also includes TypeScript support and ESLint for code linting.
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Project Structure
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+- **PrimeVue**: A rich set of UI components.
+- **Tailwind CSS**: A utility-first CSS framework.
+- **Vue Router**: The official router for Vue.js.
+- **Pinia**: A store library for Vue, serving as a state management solution.
+- **Vue I18n**: Internationalization plugin for Vue.js.
+- **VueUse**: A collection of essential Vue Composition Utilities.
+- **ESLint**: A tool for identifying and fixing linting issues in your codebase.
+
+## Installation
+
+To set up the project, run:
+
+```bash
+npm install
+```
+Then
+```bash
+npm run dev
+```
